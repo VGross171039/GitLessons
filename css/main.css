@@ -1,0 +1,22 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: azure;
+}
+
+.page-wrap{
+  padding: 1rem 0;
+}
+
+.content{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* New comment */
+
+p span{
+  color: brown;
+}

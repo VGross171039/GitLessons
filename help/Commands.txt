@@ -1,0 +1,27 @@
+
+======================== Alias ===========================
+
+Path: Users / MyName / .gitconfig
+
+[alias]
+	s = status --short   // Задает короткую команду 's' вместо полной 'status --short'
+  l = log --oneline --graph --decorate --all
+
+  and more..
+
+======================== Отмена команд =====================
+
+git checkout -- index.html   // Указываем файл для отмены изменений (если отмена в одном файле)
+git checkout .   // Удаляем изменения во всех файлах
+
+git reset index.html   // Если изменения добавлены командой 'add .' в одном конкретном файле, а затем:
+git checkout -- index.html  
+
+Аналогично: 
+
+git reset . 
+git checkout .
+
+
+
+
