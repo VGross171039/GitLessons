@@ -125,6 +125,12 @@ git branch -d develop
 выбираем "generate new token",
 Генерируя токен, нужно поставить галочку на gist. и копируем наш сгенерированный код(token);
 
+##### Обязательно сохраняем токен!
+
+Токен: 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
+
+##### Регистрация токена
+
 Заходим в "Visual Studio",
 вызываем меню - F1 (ctrl + shift + P),
 вводим "gist"
